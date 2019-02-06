@@ -1,0 +1,27 @@
+<% include ../partials/header.ejs %> 
+     
+     <div class="container">
+         <div class="row">
+             <div class="col-md-offsetr-3 col-md-6"></div>
+                 <h1><%= title %></h1>
+                 <br>
+                 <table class="table table-bordered striped hover">
+                     <tr>
+                         <th class="text-center">First Name</th>
+                         <th class="text-center">Last Name</th>
+                         <th class="text-center">Age</th>
+                     </tr>
+
+                     <% for (let count = 0; count < contactList.length; count++) { %>
+                         <tr>
+                             <td class="text-center"><%= contactList[count].firstname %></td>
+                             <td class="text-center"><%= contactList[count].lastname %></td>
+                             <td class="text-center"><%= contactList[count].age %></td>
+                         </tr>
+                     <% } %>
+                 </table>
+
+         </div>
+     </div>
+  
+<% include ../partials/footer.ejs %> 
