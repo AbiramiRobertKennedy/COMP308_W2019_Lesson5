@@ -5,8 +5,8 @@ let contactSchema = mongoose.Schema({
     name: String,
     desc: String
 },{
-     collection: "favouritethings"
+     collection: "favourite"
 });
 
 
-module.exports = mongoose.model('abi', contactSchema);
+module.exports = mongoose.model('abirami', contactSchema);
