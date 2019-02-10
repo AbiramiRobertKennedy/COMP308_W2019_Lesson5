@@ -2,12 +2,11 @@ let mongoose = require('mongoose');
 
 //create a model class
 let contactSchema = mongoose.Schema({
-    firstname: String,
-    lastname: String,
-    age: Number
+    name: String,
+    desc: String
 },{
-     collection: "first"
+     collection: "favouritethings"
 });
 
 
-module.exports = mongoose.model('test', contactSchema);
+module.exports = mongoose.model('abi', contactSchema);
