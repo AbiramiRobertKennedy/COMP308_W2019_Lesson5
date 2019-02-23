@@ -1,5 +1,5 @@
 {
-  "name": "comp308-w2019-lesson4b",
+  "name": "comp308-w2019-lesson5",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -32,10 +32,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AbiramiRobertKennedy/COMP308_W2019_Lesson4B.git"
+    "url": "git+https://github.com/AbiramiRobertKennedy/COMP308_W2019_Lesson5.git"
   },
   "bugs": {
-    "url": "https://github.com/AbiramiRobertKennedy/COMP308_W2019_Lesson4B/issues"
+    "url": "https://github.com/AbiramiRobertKennedy/COMP308_W2019_Lesson5/issues"
   },
-  "homepage": "https://github.com/AbiramiRobertKennedy/COMP308_W2019_Lesson4B#readme"
+  "homepage": "https://github.com/AbiramiRobertKennedy/COMP308_W2019_Lesson5#readme"
 }
