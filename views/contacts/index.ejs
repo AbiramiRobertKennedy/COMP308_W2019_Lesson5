@@ -11,12 +11,24 @@
                      <tr>
                          <th class="text-center">Name of favourite</th>
                          <th class="text-center">Description</th>
+                         <th class="text-center"></th>
+                         <th class="text-center"></th>
                      </tr>
 
                      <% for (let count = 0; count < contactList.length; count++) { %>
                          <tr>
                              <td class="text-center"><%= contactList[count].name %></td>
                              <td class="text-center"><%= contactList[count].desc %></td>
+                             
+                             <td class="text-center">
+                             <a href="/contact-list/edit/<%= contactList[count]._id %>"
+                                class="btn btn-primary"><i class="fa fa-edit"></i>Edit</a>                           
+                             </td>
+
+                             <td class="text-center">
+                                    <a href="/contact-list/delete/<%= contactList[count]._id %>"
+                                       class="btn btn-danger"><i class="fa fa-trash"></i>Delete</a>                                   
+                                    </td>
                          </tr>
                      <% } %>
                  </table>
